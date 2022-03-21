@@ -67,6 +67,75 @@ body {
     height: 100vh;
 }
 
+.testimonials {
+    margin: 50px auto;
+}
+
+.testimonials h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #ff9800;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.testimonials h1::after {
+    content: "";
+    background: #ff9800;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.testimonials .row {
+    margin-top: 30px;
+}
+
+.col-md-4 {
+    margin: 40px auto;
+}
+
+.profile {
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+
+.profile img {
+    top: -30px;
+    position: relative;
+    left: calc(50% -70%);
+    border: 10px solid #fff;
+}
+
+.user {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile h3 {
+    font-size: 30px;
+    margin-top: 15px;
+    color: #ff9800;
+}
+
+blockquote {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+blockquote::before {
+    content: '"';
+    font-size: 50px;
+    position: relative;
+    color: #ff9800;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+
 .places .card-body i{
     font-size: 50px;
 
